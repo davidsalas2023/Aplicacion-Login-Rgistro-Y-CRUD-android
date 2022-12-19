@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "771959740245",
+    "project_id": "adeudados-ef03f",
+    "storage_bucket": "adeudados-ef03f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771959740245:android:abd5d867e1fbb1441481dc",
+        "android_client_info": {
+          "package_name": "com.example.adeudados"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771959740245-mhulib6eg1517hgrp0somlmeln9ap0us.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm8R6JVRY3KUVyEsmQD2amb_YXovtKYXY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771959740245-mhulib6eg1517hgrp0somlmeln9ap0us.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

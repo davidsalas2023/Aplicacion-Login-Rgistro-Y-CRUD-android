@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/solotxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar Deudores"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="15dp"
+
+        android:textSize="30dp"
+        android:layout_marginLeft="80dp"/>
+
+    <EditText
+        android:id="@+id/deudor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/solotxt"
+
+        android:layout_marginTop="75dp"
+        android:hint="Nombre Deudor"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/contacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deudor"
+        android:layout_marginTop="20dp"
+
+        android:hint="Contacto deudor"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/deuda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contacto"
+        android:layout_marginTop="20dp"
+        android:hint="Cantidad a pagar"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/fecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deuda"
+        android:layout_marginTop="20dp"
+        android:hint="Fecha Limite"
+        android:inputType="date"/>
+
+    <Button
+        android:id="@+id/enviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:layout_below="@id/fecha"
+        android:text="Enviar Datos"/>
+
+
+    <Button
+        android:id="@+id/ver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enviar"
+        android:text="Ver Formulario"/>
+
+    <Button
+        android:id="@+id/volver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ver"
+        android:text="Volver al menu"/>
+
+</RelativeLayout>
